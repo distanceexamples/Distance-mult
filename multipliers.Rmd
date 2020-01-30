@@ -1,6 +1,6 @@
 ---
 title: "Multipliers and indirect surveys"
-author: "E Rexstad"
+author: Eric Rexstad, <em>CREEM, Univ. of St Andrews</em>
 date: "`r format(Sys.Date(), '%d %B %Y')`"
 output: rmarkdown::html_vignette
 bibliography: mult.bib
