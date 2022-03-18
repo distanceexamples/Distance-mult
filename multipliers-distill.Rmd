@@ -65,7 +65,7 @@ conversion.factor <- convert_units("centimeter", "kilometer", "square kilometer"
 Fit the usual series of models (i.e. half normal, hazard rate, uniform) models to the distances to pellet groups and decide on a detection function.  This detection function (Figure \@ref(fig:detfn)) will be used to obtain $\hat D_{\textrm{pellet groups}}$.
 
 ```{r detfn, fig.cap="Simple detection function to deer pellet line transect data."}
-deer.df <- ds(sikadeer, key="hn", truncation="10%", convert.units = conversion.factor)
+deer.df <- ds(sikadeer, key="hn", truncation="10%", convert_units = conversion.factor)
 plot(deer.df, main="Half normal detection function")
 print(deer.df$dht$individuals$summary)
 ```
